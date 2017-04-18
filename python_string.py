@@ -11,7 +11,7 @@ def main():
     print(x)
     # 设置编码格式
     print('ABC'.encode('ascii'))
-    print( '中文'.encode('utf-8'))
+    print('中文'.encode('utf-8'))
     # 字符串中包含中文时，不能设置为ascii格式，中文编码超过ascii编码的范围了
     # UnicodeEncodeError: 'ascii' codec can't encode characters in position 0-1:
     # ordinal not in range(128)
@@ -25,6 +25,11 @@ def main():
     print(len('ABC'))
     # 1个中文字符经过UTF-8编码后通常会占用3个字节，而1个英文字符只占用1个字节
     print(len('中文'.encode('utf-8')))
+
+    # 格式化输出
+    # print('亲爱的%s你好,你的%d月话费是%d，余额是%d.' %('Leland',4,56))
+    print('亲爱的%s你好! 你的%d月话费是%d，余额是%d.' % ('Leland', 4, 56, 144))
+
 
 if __name__ == '__main__':
     main()
