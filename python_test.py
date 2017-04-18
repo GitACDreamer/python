@@ -51,7 +51,6 @@ line3''')
     s4 = r'''Hello,
 Lisa!'''
 
-    # 😀
     print(n)
     print(f)
     print(s1,s2,s3,s4)
