@@ -28,6 +28,31 @@ line3''')
     # 同一个变量可以重复赋值
     age = 'ABC'
     print(age)
+    a = 'ABC'
+    b = a
+    a = 'XYZ'
+    print(a)
+    print(b)
+    PI = 3.1415926
+    print(PI)
+    print(10 / 3)
+    print(9 / 3)
+    # 得到结果后，向下取整
+    print(10 // 3)
+    # 取余
+    print(10 % 3)
+
+    # 练习
+    n = 123
+    f = 456.789
+    s1 = 'Hello, world'
+    s2 = 'Hello, \'Adam\''
+    s3 = r'Hello, "Bart"'
+    s4 = r'''Hello,
+Lisa!'''
+    print(n)
+    print(f)
+    print(s1,s2,s3,s4)
 
 
 if __name__ == '__main__':
