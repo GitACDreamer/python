@@ -20,7 +20,7 @@ line3''')
     print(not 1 > 2)
     print(None)
     # 声明变量无需指定类型，它自己会判断
-    age = 12
+    age = int(input('请输入你的年龄：'))
     if age >= 18:
         print('adult')
     else:
