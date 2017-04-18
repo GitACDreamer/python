@@ -50,6 +50,8 @@ line3''')
     s3 = r'Hello, "Bart"'
     s4 = r'''Hello,
 Lisa!'''
+
+    # 😀
     print(n)
     print(f)
     print(s1,s2,s3,s4)
