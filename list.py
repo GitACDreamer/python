@@ -34,5 +34,15 @@ def main():
     listNull = [] ;
     print(listNull)
 
+    # exercise
+    LIST = [
+        ['Apple','Google','Microsoft'],
+        ['Java','Python','Ruby','PHP'],
+        ['Adam','Bart','Lisa']
+    ]
+    print('打印apple:%s' %(LIST[0][0]))
+    print('打印python:%s' %(LIST[1][1]))
+    print('打印lisa:%s' %(LIST[2][2 ]))
+
 if __name__ == '__main__':
     main()
