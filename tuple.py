@@ -10,7 +10,7 @@ def test():
     # 空的tuple
     tupleNull = ()
     print(tupleNull)
-
+ 
     # tuple 只有一个元素时的定义,需要添加一个逗号来消除歧义
     tupleOne = (1,)
     print(tupleOne)
