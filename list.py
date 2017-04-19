@@ -40,6 +40,8 @@ def main():
         ['Java','Python','Ruby','PHP'],
         ['Adam','Bart','Lisa']
     ]
+    # LIST.sort()
+    print(LIST)
     print('打印apple:%s' %(LIST[0][0]))
     print('打印python:%s' %(LIST[1][1]))
     print('打印lisa:%s' %(LIST[2][2 ]))
