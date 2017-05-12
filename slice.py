@@ -50,6 +50,9 @@ def slice():
     #取最后两个数
     print(STR[-2:])
 
+    #逆序
+    print(STR[::-1])
+
 def main():
     slice()
 
