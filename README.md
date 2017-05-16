@@ -12,3 +12,4 @@
 11. iterator的总结
 12. ```reduce and map exercise```
 13. 筛选器
+14. 排序```sorted```
