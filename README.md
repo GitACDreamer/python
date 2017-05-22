@@ -13,3 +13,5 @@
 12. ```reduce and map exercise```
 13. 筛选器
 14. 排序```sorted```
+15. 偏函数```partial function```
+16. module 引入模块，测试模块调用
