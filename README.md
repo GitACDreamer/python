@@ -19,3 +19,6 @@
 18. 练习```inherit and Polymorphism```
 19. 引入第三方库例如：```numpy、pillow```
 20. 限制类的实例属性```__slots__```
+21. 使用```@property```属性
+22. 多继承```multi-inherit```
+23. 定制类
