@@ -15,3 +15,7 @@
 14. 排序```sorted```
 15. 偏函数```partial function```
 16. module 引入模块，测试模块调用
+17. 面向对象编程的三个性质：多态、抽象、继承
+18. 练习```inherit and Polymorphism```
+19. 引入第三方库例如：```numpy、pillow```
+20. 限制类的实例属性```__slots__```
