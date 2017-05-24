@@ -35,10 +35,10 @@ class Fibonacci(object):
 
 def main():
    f = Fibonacci()
-   print(f[0])
-   print(f[2])
-   print(f[8])
-   print(f[:10])
+   print('F[0]=',f[0])
+   print('F[2]=',f[2])
+   print('F[8]=',f[8])
+   print('F[0~10]=',f[:10])
    # print(f['a'])
    for n in f:
        print(n)
