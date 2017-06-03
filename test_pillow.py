@@ -53,11 +53,11 @@ def testDrawImage():
     # 填充图片
     for x in range(width):
         for y in range(height):
-            draw.point((x, y), fill=randomTextColor())
+            draw.point((x, y), fill=randomBgColor())
     # 输出文字
     for t in range(4):
         draw.text((60 * t + 10, 10), randomChar(),
-                  fill=randomBgColor(), font=font)
+                  fill=randomTextColor(), font=font)
 
     # 模糊图片
     im.filter(ImageFilter.BLUR)
