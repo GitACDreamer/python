@@ -1,5 +1,5 @@
 '使用数据库'
-
+# sqlite的占位符是?
 import sqlite3
 
 
