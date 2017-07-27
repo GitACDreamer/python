@@ -1,0 +1,11 @@
+DELIMITER $$
+
+use student
+
+create PROCEDURE procedure_book()
+BEGIN
+    select author , name from book
+    inner join AUTHOR on book.user_id = user.id
+    inner join book_name on book_name.id = book.id;
+END$$
+DELIMITER

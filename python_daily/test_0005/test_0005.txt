@@ -1,0 +1,9 @@
+Machine learning
+From Wikipedia the free encyclopedia
+For the journal see Machine Learning journal
+Machine learning and
+data mining
+Kernel Machine
+Supervised learning
+Dimensionality reduction[show]
+This is the first release of Redis on Windows 3.2.
